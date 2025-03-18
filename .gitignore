@@ -1,0 +1,51 @@
+#add everything you'd normally add to a .gitignore file
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Dependency Management (uv)
+.uv_cache/
+uv.lock  # Optional: only if you don’t want to commit lock files
+
+# Streamlit
+.streamlit/
+*.log
+
+# Sensitive Files
+.env
+credentials.json
+secrets.toml
+*.key
+*.pem
+
+# OS-Specific
+.DS_Store
+Thumbs.db
+
+# Editor Files
+*.swp
+*.swo
+.vscode/
+.idea/
+*.iml
+
+# Miscellaneous
+*.bak
+*.tmp
+*.swp
+local_data/
+test_data/
+
+# Add any project-specific files or directories here
